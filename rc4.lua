@@ -48,7 +48,6 @@ end
 
 function output(S, text)
     local len = string.len(text)
-    local res = {}
     local c = nil
     local res = ''
     for i = 1, len do
