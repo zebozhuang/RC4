@@ -1,5 +1,6 @@
-RC4 encrypt/descrypt text.Lua Code
+LUA RC4 encrypt/descrypt text.
 ----------------------------------
 
-We run it compare with python rc4.
-vimdiff py.txt lua.txt
+# lua rc4 was relized according to http://en.wikipedia.org/wiki/RC4.
+# We run it comparing with python rc4.
+
