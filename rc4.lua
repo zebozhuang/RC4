@@ -49,12 +49,12 @@ end
 function output(S, text)
     local len = string.len(text)
     local c = nil
-    local res = ''
+    local res = {}
     for i = 1, len do
         c = string.byte(text, i, i)
-        res = res..string.char(bxor(S[i], c))
+        res[i] = string.char(bxor(S[i], c))
     end
-    return res
+    return table.concat(res)
 end
 
 
